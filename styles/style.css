@@ -1,72 +1,22 @@
-#game-title{
-  position: relative;
-  z-index:1;
-}
-h1,
-p {
-  text-align: center;
-}
-p {
-  font-size: 20px;
-}
-img {
-  position: relative;
-  height: 200px;
-  width: 200px;
-}
-#flying-pig {
-  transform: scaleX(-1);
-  border-radius: 50%;
-  top: 100px;
-}
-.pedestals {
-}
-#pedestal-1 {
-  left: 200px;
-  top: 700px;
-}
 body {
   background: skyblue;
 }
-.center {
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%,-50%);
-}
-.cloud {
-  position: relative;
-  top:100px;
-  z-index:.99;
-  background: rgba(255, 255, 255);
-  width: 300px; 
-  height: 100px;
-  border-radius: 150px;	
-  box-shadow: 10px 10px rgba(0,0,0,0.2);
-  animation: move 1s infinite;
-}
-
-.cloud:after {
-  content: '';
-  background: rgba(255, 255, 255);
-  position: absolute;
+button{
+  background-color: gold;
+  border-radius: 10px;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  top: -50px;
-  left: 50px;
+  margin-right: 40px;
+  top: 150px;
+  position: relative;
 }
-
-.cloud:before {
-  content: '';
-  background: rgba(255, 255, 255);
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  top: -90px;
-  right: 40px;
+#title{
+  position: relative;
+  top:50px;
+  text-align: center;
 }
-#cloud2{
-  left:80%;
+#buttons {
+  justify-content: center;
+  text-align: center;
+  margin-right: 20px;
 }
